@@ -1,0 +1,80 @@
+img{
+	width: auto;
+	height: auto;
+}
+.CoolText{
+	font-size: 160px;
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+}
+body{
+	background: linear-gradient(to bottom, #b3d076, #eafbce);
+}
+.ButLi ul{
+	width: auto;
+	height: 50px;
+}
+.ButLi li{
+	border-radius:;
+	display: inline;
+	float: left;
+	width: 25%;
+	line-height: 50px;
+	background-color: yellow;
+	text-align: center;
+	font-size: 25px;
+	border-radius: 50% 50% 50% 50%;
+
+}
+
+.ButLi li:hover{
+	background-color: silver;
+}
+footer{
+	text-align: center;
+}
+.MainTable td{
+	vertical-align:top;
+}
+
+strong{
+	font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 670px){
+.CoolText{
+	font-size: 100px;
+}
+.Cap{
+	height: 150px;
+}
+.ButLi ul{
+	height: 40px;
+}
+.ButLi li{
+	line-height: 40px;
+	font-size: 20px;
+}
+
+}
+@media screen and (max-width: 540px){
+.CoolText{
+	font-size: 70px;
+}
+.Cap{
+	height: 100px;
+}
+.ButLi ul{
+	height: 40px;
+}
+.ButLi li{
+	display: list-item;
+	list-style-type: none;
+	float: none;
+	width: 100%;
+	line-height: 40px;
+	font-size: 20px;
+}
+}
